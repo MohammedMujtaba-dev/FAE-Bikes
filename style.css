@@ -111,6 +111,7 @@ a:active {
   border-radius: 10px;
   background-color: #88c7b326;
   padding-bottom: 40px;
+  margin: auto;
   /* box-shadow:  1px 1px 10px black; */
 }
 .content {
@@ -695,11 +696,13 @@ footer {
   margin-bottom: 50px;
   border: 2px solid aqua;
   box-sizing: border-box;
-  background-color: #aa93543b;
+  /* background-color: #aa93543b; */
+  background-color: rgba(104, 222, 185, 0.605);
   box-shadow: 2px 5px 10px black;
   h1 {
-    text-shadow: 2px 3px black;
-    color: #7275b7;
+    /* text-shadow: 2px 3px black; */
+    color: #16172ccd;
+    text-align: center;
   }
 }
 .contact1 {
@@ -759,6 +762,13 @@ footer {
   font-family: Muli;
   width: 150px;
   cursor: pointer;
+  font-size: 16px;
+}
+.contactbutton:hover {
+  border: 2px solid black;
+  background-color: #80c6ff69;
+  font-size: 18px;
+  color: black;
 }
 form {
   background-color: #0bc17818;

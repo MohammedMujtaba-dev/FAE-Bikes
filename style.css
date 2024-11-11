@@ -698,7 +698,8 @@ footer {
   box-sizing: border-box;
   /* background-color: #aa93543b; */
   background-color: rgba(104, 222, 185, 0.605);
-  box-shadow: 2px 5px 10px black;
+  box-shadow: 2px 5px 5px rgb(47, 44, 44, 0.5),
+    -2px -5px 5px rgb(47, 44, 44, 0.5), 2px 5px 5px rgb(47, 44, 44, 0.5);
   h1 {
     /* text-shadow: 2px 3px black; */
     color: #16172ccd;
